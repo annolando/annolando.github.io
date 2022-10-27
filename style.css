@@ -39,8 +39,8 @@ a{
 
 }
 
-header{
-    border: 5px solid red;
+body> header{
+    border: 5px solid yellow;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
