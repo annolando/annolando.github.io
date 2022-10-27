@@ -61,3 +61,18 @@ p{
     margin-top:.4rem;
     line-height: 1.6rem;
 }
+
+@media(min-width:768px){
+    header{
+        flex-wrap:nowrap;
+        align-items: center;
+
+    }
+    img{
+        max-width:40%;
+        margin:2rem;
+    }
+    header div{
+        max-width: 40%;
+    }
+}
